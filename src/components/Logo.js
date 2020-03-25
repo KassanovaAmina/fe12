@@ -1,7 +1,8 @@
 import React from 'react';
+import logo from '../../src/images/logo.png';
+
 
 function Logo() {
-    return <p align="left">Logo</p>;
-
+    return <img className="Logo" src={logo} alt="logo"/>;
 }
 export default Logo;

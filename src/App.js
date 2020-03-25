@@ -5,12 +5,18 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 
 function App() {
+    const mainTitle = 'COUNTER APP';
+    const menuItems =[
+        'Main', 'About', 'Contacts', 'Deals'
+    ];
     return (
         <div className="App">
-            <Header/>
-            <h1>Online Learning</h1>
+            <Header
+                title={mainTitle}
+                version='12.12.23'
+                menuItems={menuItems}
+            />
             <Content/>
-            <a href="https://www.mtu.edu/online/apply/">Apply now</a>
             <Footer/>
         </div>
     );
