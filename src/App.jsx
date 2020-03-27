@@ -7,18 +7,12 @@ import Footer from "./components/Footer/Footer";
 function App() {
     const mainTitle = 'COUNTER APP';
     const menuItems =[
-        {
-            title: 'Main'
-        },
-        {
-            title: 'About'
-        },
-        {
-            title: 'Contacts'
-        },
-        {
-            title: 'Deals'
-        }
+        {title: 'Undergraduate Admissions'},
+        {title: 'Graduate Admissions'},
+        {title: 'Academics'},
+        {title: 'Research'},
+        {title: 'Campus Life and Safety'},
+        {title: 'About'}
     ];
     return (
         <div className="App">
