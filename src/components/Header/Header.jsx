@@ -1,8 +1,8 @@
 import React from 'react';
 import Logo from "./Logo";
 import HeaderMenu from "./HeaderMenu";
-import Version from "./Version";
-import Menu from "./Menu";
+import Version from "../Version";
+import Menu from "../Menu";
 
 function Header(props) {
     console.log(props);
