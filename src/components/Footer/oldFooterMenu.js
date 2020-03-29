@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FooterMenu() {
+function OldFooterMenu() {
     return (
         <div align="left">
             <p>FooterMenu</p>
@@ -16,7 +16,7 @@ function FooterMenu() {
     );
 }
 
-export default FooterMenu;
+export default OldFooterMenu;
 
 // <tt>Facebook Open Source
 //     Copyright © 2020 Facebook Inc.</tt>;

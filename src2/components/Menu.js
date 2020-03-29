@@ -1,9 +1,9 @@
 import React from 'react';
-import MenuItem from "../../src/components/MenuItem";
+import HeaderMenuItem from "../../src/components/Header/HeaderMenuItem";
 
 function Menu(props) {
     return <ul>
-        {props.menuItems.map((el, i) => <MenuItem key={i} item={el} />)}
+        {props.menuItems.map((el, i) => <HeaderMenuItem key={i} item={el} />)}
     </ul>;
 
 }

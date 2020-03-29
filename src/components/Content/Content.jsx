@@ -1,8 +1,7 @@
 import React from 'react';
-import './Content.css';
 
 function Content() {
-    return <p>Earn an online graduate degree or certificate or take individual classes from Michigan Technological University—even if you're busy working or living far away from Houghton, Michigan.
+    return <p className='content'>Michigan Technological University is a public research university founded in 1885. Our campus in Michigan’s Upper Peninsula overlooks the Keweenaw Waterway and is just a few miles from Lake Superior. Learn more about our degree programs.
     </p>;
 
 }
