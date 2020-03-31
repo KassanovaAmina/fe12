@@ -1,29 +1,40 @@
 .App {
   text-align: center;
+  background-color: red;
+  color: darkslateblue;
+}
+
+.appLink {
+  color: yellowgreen;
 }
 
 .header {
-  background-color: lightblue;
-  color: yellow;
+  background-color: red;
+  color: white;
   text-align: left;
   font-size: 20px;
 }
 
 .headerMenu{
-
+  background-color: whitesmoke;
+  color: blueviolet;
+  text-align: right;
+  font-size: 20px;
 }
 .headerMenuItem{
-  background-color: lightblue;
-  color: yellow;
+  background-color: whitesmoke;
+  color: blue;
   text-align: left;
   font-size: 20px;
 }
 .Logo {
+  background-color: red;
   display: flex;
   align-items: center;
-  height: inherit;
   margin-left: 10px;
   grid-column: 1;
+  height: 46px;
+  width: 46px;
 }
 
 /*.Logo-image {
@@ -39,17 +50,29 @@
   display: inline;
 }*/
 .content {
+  background-color: whitesmoke;
   font-size: 24px;
-  color: grey;
+  color: black;
 }
 
 .footer {
+  background-color: whitesmoke;
   font-size: 14px;
-  color: rebeccapurple;
+  color: grey;
+}
+.footerMenuItem {
+  background-color: whitesmoke;
+  color: grey;
+  text-align: left;
+  font-size: 20px;
 }
 
-
-
+.footerMenu {
+  background-color: whitesmoke;
+  color: white;
+  text-align: right;
+  font-size: 20px;
+}
 
 
 

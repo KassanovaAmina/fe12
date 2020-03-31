@@ -1,8 +1,15 @@
 import React from 'react';
 
 function Content() {
-    return <p className='content'>Michigan Technological University is a public research university founded in 1885. Our campus in Michigan’s Upper Peninsula overlooks the Keweenaw Waterway and is just a few miles from Lake Superior. Learn more about our degree programs.
-    </p>;
+    return (
+        <div className='content'>
+            <a href='https://www.target.com/c/games-puzzles-toys/-/N-5xt9i?lnk=Entertainmentfo_activities'>Entertainment for everyone
+            </a>
+        <br/>
+            <a href='https://www.target.com/c/games-puzzles-toys/-/N-5xt9i?lnk=Entertainmentfo_activities'>Discover our fave games, puzzles, crafts & more.
+            </a>
+        </div>
+    );
 
 }
 

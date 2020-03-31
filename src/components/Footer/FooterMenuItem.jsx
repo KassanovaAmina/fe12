@@ -1,7 +1,7 @@
 import React from 'react';
 
 function FooterMenuItem(props) {
-    return <li>
+    return <li className='footerMenuItem'>
         <a href={props.item.url}>{props.item.title}</a>
     </li>;
 
