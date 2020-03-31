@@ -23,22 +23,12 @@ function App() {
 
     const onButtonClick = (n) => {
         console.log(n)
-    }
-
-    const menu = [
-        'Categories',
-        'Go 2',
-        'Go 3'
-    ]
-
+    };
 
 
     return (
         <div className="App">
-            <Header
-
-                title={mainTitle}
-                menuItems={menuItems}/>
+            <Header title={mainTitle}/>
             {menuItems.map(el => <button key={el} onClick={() => onButtonClick(el)}>{el.title}</button>)}
             <Content/>
             <Footer footerMenuItems={footerMenuItems}/>

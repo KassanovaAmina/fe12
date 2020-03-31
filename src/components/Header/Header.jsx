@@ -7,7 +7,6 @@ function Header(props) {
         <div className='header'>
             <Logo/>
             {props.title} <hr/>
-            <HeaderMenu menuItems={props.menuItems}/>
         </div>
     );
 
